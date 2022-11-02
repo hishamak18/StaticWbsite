@@ -1,0 +1,238 @@
+body{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**First Page Styles*/
+.container{
+    background-image:url("../assets/images/pexels-cottonbro-4069291.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.companyName{
+    margin-left: 170px;
+    color: white;
+    margin-top: 45px;
+    font-size: 25px;
+
+}
+
+
+.navbar{
+    display:   flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin-right: 230px;
+    margin-top: 60px;   
+    font-size: 20px;
+    
+}
+.navAnger{
+    text-decoration: none;
+    color: white;
+}
+.navButton{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.095);
+    border: none;
+    /* width: 100px; */
+    /* height: 25px; */
+    font-size: 12px;
+    padding: 10px;
+}
+.contentPage1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    /* gap: 50px; */
+    margin-left: 150px;
+    color: white;
+}
+.mainHeader{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Open Sans,sans-serif;
+}
+.mainp{
+    margin-bottom: 60px;
+    font-size:16px;
+   
+
+
+}
+.accessEmail{
+    display: flex;
+    gap: 20px;
+}
+#Email{
+    height: 45px;
+    width: 250px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+}
+.Accessbtn{
+    height: 45px;
+    width: 150px;
+    color: white;
+    background: rgb(64, 180, 248);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+/**Second Page Styles*/
+
+.page2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Header2{
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+    font-family: Open Sans,sans-serif;
+    
+}
+
+.Learn{
+    display: flex;
+    flex-direction: row;
+
+}
+.img1{
+   
+}
+.img2{
+    position: absolute;
+    top: 132px;
+    right: 150px;
+}
+/* Third Page Styles*/
+
+.page3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    
+}
+.img2-1{
+
+    
+}
+.img2-2{
+    position: absolute;
+    top: 60px;
+    left: 550px;
+}
+.img2-2{
+    display: flex;
+    flex-direction: column;
+}
+.imgInp3{
+    margin-left: 200px;
+}
+.header3{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap: 30px;
+}
+/* Page 4 Styles */
+.page4{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.header4{
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+}
+.img3-2{
+    position: absolute;
+    top: 0px;
+    
+}
+
+/* page fifth  */ 
+ .containerIn5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+ }
+ .containerIn5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+ }
+ .card{
+    width: 300px;
+    height: 350px;
+    border: none;
+    box-shadow: 5px 3px 14px 3px rgba(0, 0, 0, 0.314);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: column;
+ }
+ span{
+    color: grey;
+ }
+ p{
+    margin-left: 15px;
+    margin-top: 25px;
+    font-family: Open sans;
+ }
+  
+  /* footer  */
+  .FooterSection{
+    display: flex;
+    justify-content: space-around;
+    background: #26313c;
+    color: white;
+    height: 300px;
+    padding-top: 30px ;
+
+  }
+  .footer-col{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    
+
+  }
+  .footer-para{
+    color: white;
+    text-decoration: none;
+  }
+
+    
+
